@@ -22,18 +22,20 @@ body {
 
 /* logo and header */
 .logo {
-    grid-column: 1 / span 4;
-    background-color: black;
+    display: flex;
+    width: 13%;
+    padding-left: 2%;
+    align-items: center;
+    height: 8vh;
     color: rgb(221, 221, 221);
 }
 
 .logo h1 {
-    padding: 2%;
     font-weight: lighter;
 }
 
 .header {
-    grid-column: 5 / span 6;
+    grid-column: 1 / span 10;
     background-color: black;
     color: var(--white);
 }
