@@ -22,7 +22,7 @@ body {
 
 /* logo and header */
 .logo {
-    display: flex;
+    display: inline-flex;
     width: 13%;
     padding-left: 2%;
     align-items: center;
@@ -36,8 +36,16 @@ body {
 
 .header {
     grid-column: 1 / span 10;
-    background-color: black;
+    display: flex;
+    background-color: #141414;
     color: var(--white);
+}
+
+.header-right {
+    display: inline;
+    align-self: center;
+    width: 83%;
+    text-align: right;
 }
 
 .section {
@@ -75,6 +83,15 @@ body {
 }
 
 /* button */
+.btn-mode {
+    padding: 4px 12px;
+    border: none;
+    border-radius: 3px;
+    background-color: #303030;
+    color: white;
+    cursor: pointer;
+}
+
 .btn {
     font-size: 24px;
     border: none;

@@ -1,0 +1,68 @@
+
+body {
+    background-color: #fafafa;
+}
+
+:root {
+    --white: #141414;
+    --orange: rgb(219, 99, 29);
+}
+
+/* logo and header */
+.logo {
+    color: var(--white);
+}
+
+.header {
+    background-color: #fafafa;
+    color: var(--white);
+}
+
+.section {
+    background-color: #f1f0f0;
+}
+
+/* input screen and history */
+.section input {
+    background-color: #f1f0f0;
+    color: var(--white);
+}
+
+#history {
+    color: #646464;
+}
+
+.ac {
+    background-color: #fafafa;
+    color: var(--orange);
+    box-shadow: 0px -1px 1px #e0e0e0;
+}
+
+/* button */
+.btn-mode {
+    background-color: #f1f0f0;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.btn {
+    color: var(--white);
+    background-color: #fafafa;
+}
+
+.btn:hover, .ac:hover {
+    background-color: #e4e4e4;
+}
+
+.btn:active, .ac:active {
+    background-color: #dbdbdb;
+}
+
+.mrg {
+    background-color: #fafafa;
+}
+
+/* buttons color */
+.op-bracket, .cl-bracket, .mod, .divide, .multiply, .minus, .plus, .equal {
+    color: var(--orange);
+}

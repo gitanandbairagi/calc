@@ -1,6 +1,6 @@
 let screen = document.getElementById("screen")
 let history = document.getElementById("history")
-buttons = document.querySelectorAll("button")
+buttons = document.getElementsByClassName("calcbtn")
 let screen_value = ""
 
 for(item of buttons) {

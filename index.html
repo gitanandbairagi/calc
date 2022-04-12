@@ -6,18 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Calulator</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="responsive.css">
+    <!-- CSS: main -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- CSS: responsive -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- CSS: lightMode -->
+    <link rel="stylesheet" href="css/lightMode.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="header">
+        <div class="header" id="header">
             <div class="logo">
                 <h1>Calculator</h1>
             </div>
             <div class="header-right">
-                <!-- this is empty for now -->
+                <button class="btn-mode" id="mode">Light Mode</button>
             </div>
         </div>
         <div class="section" id="mobile-section-1">
@@ -38,45 +42,48 @@
 
         <!-- <input type="text" name="screen" id="screen"> -->
         <!-- cal row 1 -->
-        <button class="ac">AC</button>
+        <button class="calcbtn ac">AC</button>
         <!-- cal row 2 -->
         <div class="mrg"></div>
-        <button class="btn op-bracket">(</button>
-        <button class="btn cl-bracket">)</button>
-        <button class="btn mod">%</button>
-        <button class="btn divide">/</button>
+        <button class="calcbtn btn op-bracket">(</button>
+        <button class="calcbtn btn cl-bracket">)</button>
+        <button class="calcbtn btn mod">%</button>
+        <button class="calcbtn btn divide">/</button>
         <div class="mrg"></div>
         <!-- cal row 3 -->
         <div class="mrg"></div>
-        <button class="btn seven">7</button>
-        <button class="btn eight">8</button>
-        <button class="btn nine">9</button>
-        <button class="btn multiply">x</button>
+        <button class="calcbtn btn seven">7</button>
+        <button class="calcbtn btn eight">8</button>
+        <button class="calcbtn btn nine">9</button>
+        <button class="calcbtn btn multiply">x</button>
         <div class="mrg"></div>
         <!-- cal row 4 -->
         <div class="mrg"></div>
-        <button class="btn four">4</button>
-        <button class="btn five">5</button>
-        <button class="btn six">6</button>
-        <button class="btn minus">-</button>
+        <button class="calcbtn btn four">4</button>
+        <button class="calcbtn btn five">5</button>
+        <button class="calcbtn btn six">6</button>
+        <button class="calcbtn btn minus">-</button>
         <div class="mrg"></div>
         <!-- cal row 5 -->
         <div class="mrg"></div>
-        <button class="btn one">1</button>
-        <button class="btn two">2</button>
-        <button class="btn three">3</button>
-        <button class="btn plus">+</button>
+        <button class="calcbtn btn one">1</button>
+        <button class="calcbtn btn two">2</button>
+        <button class="calcbtn btn three">3</button>
+        <button class="calcbtn btn plus">+</button>
         <div class="mrg"></div>
         <!-- cal row 6 -->
         <div class="mrg"></div>
-        <button class="btn d-zero">00</button>
-        <button class="btn zero">0</button>
-        <button class="btn point">.</button>
-        <button class="btn equal">=</button>
+        <button class="calcbtn btn d-zero">00</button>
+        <button class="calcbtn btn zero">0</button>
+        <button class="calcbtn btn point">.</button>
+        <button class="calcbtn btn equal">=</button>
         <div class="mrg"></div>
     </div>
 
-    <script src="calc.js"></script>
+    <!-- JS: calc -->
+    <script src="js/calc.js"></script>
+    <!-- JS: lightMode -->
+    <script src="js/mode.js"></script>
 </body>
 
 </html>
