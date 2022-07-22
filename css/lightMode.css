@@ -23,9 +23,10 @@ body {
 }
 
 /* input screen and history */
-.section input {
+.section input, .section output {
     background-color: #f1f0f0;
     color: var(--white);
+    display: inline-block;
 }
 
 #history {
